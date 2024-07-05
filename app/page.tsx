@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Header fixed />
-      <main>
+      <main className="mb-32">
         <section className="h-screen bg-[url('/images/cabin-exterior.jpg')] bg-cover bg-fixed bg-center">
           <div className="absolute flex h-full w-full flex-col items-center justify-center p-12">
             <h1 className="mb-6 text-center text-6xl font-bold text-orange-400">
@@ -29,7 +29,7 @@ export default function Home() {
         <section id="about" className="mx-16 my-16 flex flex-col items-center">
           <h1 className="mb-8 text-4xl font-bold">What we do</h1>
           <p className="mb-8 italic">Do you want...</p>
-          <ul className="mb-16">
+          <ul className="mb-8">
             <li>Accommodation?</li>
             <li>Food?</li>
             <li>Bonfire?</li>
