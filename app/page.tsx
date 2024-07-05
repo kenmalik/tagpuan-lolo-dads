@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Header from './components/header';
 
 export default function Home() {
@@ -6,17 +5,7 @@ export default function Home() {
     <>
       <Header fixed />
       <main>
-        <section className="h-screen">
-          <Image
-            alt="Exterior of Lolo Dad's cabin"
-            src="/images/cabin-exterior.jpg"
-            quality={100}
-            fill
-            sizes="100vw"
-            style={{
-              objectFit: 'cover',
-            }}
-          />
+        <section className="h-screen bg-[url('/images/cabin-exterior.jpg')] bg-cover bg-fixed bg-center">
           <div className="absolute flex h-full w-full items-center justify-center p-12">
             <h1 className="text-center text-6xl font-bold text-orange-400">
               A cabin + restaurant in Sagada, Philippines
