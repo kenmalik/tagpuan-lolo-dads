@@ -14,16 +14,16 @@ export default function Home() {
             <h1 className="mb-6 text-center text-5xl font-bold text-orange-400 sm:text-6xl md:text-7xl lg:text-8xl">
               A cabin + restaurant in Sagada, Philippines
             </h1>
-            <div className="flex w-2/5 flex-col gap-4 text-center text-white md:w-1/3 md:text-lg lg:w-1/4 lg:text-xl">
+            <div className="flex w-2/5 flex-col gap-4 text-center text-orange-100 md:w-1/3 md:text-lg lg:w-1/4 lg:text-xl">
               <a
                 href="#tagpuan"
-                className="w-full border-b-2 border-white p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
+                className="w-full border-b-2 border-orange-100 p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
               >
                 Ginuwine Tagpuan
               </a>
               <a
                 href="#lolo-dads"
-                className="w-full border-b-2 border-white p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
+                className="w-full border-b-2 border-orange-100 p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
               >
                 Lolo Dad's Cabin
               </a>
