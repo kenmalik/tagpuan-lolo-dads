@@ -7,8 +7,8 @@ export default function About() {
   return (
     <>
       <Header />
-      <main className="pt-16">
-        <section className="mx-8 mb-64 flex flex-col items-center">
+      <main className="pt-12">
+        <section className="mx-8 mb-64 mt-24 flex flex-col items-center sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128">
           <h1 className="mb-12 text-center text-4xl font-bold">
             Where to find us
           </h1>
