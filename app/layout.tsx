@@ -2,6 +2,14 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Footer from './components/footer';
+import { Seaweed_Script } from 'next/font/google';
+
+const seaweed = Seaweed_Script({
+  subsets: ['latin'],
+  weight: '400',
+  display: 'swap',
+  variable: '--font-seaweed-script',
+});
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`${seaweed.variable} scroll-smooth`}>
       <body className={inter.className}>
         {children}
         <Footer />
