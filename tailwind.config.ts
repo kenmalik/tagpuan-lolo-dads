@@ -23,6 +23,20 @@ const config: Config = {
       screens: {
         '3xl': '1792px',
       },
+      keyframes: {
+        'fade-out': {
+          from: { backgroundColor: 'white' },
+          to: { backgroundColor: 'transparent' },
+        },
+        'fade-in': {
+          from: { backgroundColor: 'transparent' },
+          to: { backgroundColor: 'white' },
+        },
+      },
+      animation: {
+        'fade-out': 'fade-out .2s ease-in',
+        'fade-in': 'fade-in .2s ease-in',
+      },
     },
   },
   plugins: [],

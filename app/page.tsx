@@ -1,13 +1,26 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Gallery from './components/gallery';
 import Header from './components/header';
 import Link from 'next/link';
 
 export default function Home() {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  function handleScroll() {
+    const position = window.scrollY;
+    setScrollPosition(position);
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
-      <Header fixed />
+      <Header fixed transparent={scrollPosition < 200} />
       <main className="mb-32">
         <section className="h-screen bg-[url('/images/tagpuan/restaurant-exterior.jpg')] bg-cover bg-fixed bg-center">
           <div className="absolute flex h-full w-full flex-col items-center justify-center p-12 md:p-24 lg:p-64">
