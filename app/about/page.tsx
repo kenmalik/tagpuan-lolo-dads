@@ -29,7 +29,7 @@ export default function About() {
                   src="/logos/Facebook_Logo_Secondary.png"
                   className="size-8 bg-[#4267B2] p-1"
                 />
-                Facebook @ Tagpuan • Lolo Dad's Cabin
+                Facebook @ Tagpuan • Lolo Dad&apos;s Cabin
               </a>
             </li>
             <li>

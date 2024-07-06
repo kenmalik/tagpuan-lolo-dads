@@ -38,7 +38,7 @@ export default function Home() {
                 href="#lolo-dads"
                 className="w-full border-b-2 border-orange-100 p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
               >
-                Lolo Dad's Cabin
+                Lolo Dad&apos;s Cabin
               </a>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Home() {
           className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
         >
           <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
-            Lolo Dad's Cabin
+            Lolo Dad&apos;s Cabin
           </h1>
           <div className="mb-8 border-2 p-2">
             <Gallery>
@@ -107,10 +107,10 @@ export default function Home() {
           </div>
           <div className="mb-8 sm:px-10 lg:px-20 2xl:px-36">
             <p>
-              Welcome to Lolo Dad's Cabin! Use it as a basecamp for your
+              Welcome to Lolo Dad&apos;s Cabin! Use it as a basecamp for your
               mountain excursions. Our four double beds can sleep up to eight.
-              For the deep sleepers there's also a couch and plenty of floor
-              space.
+              For the deep sleepers there&apos;s also a couch and plenty of
+              floor space.
             </p>
           </div>
           <ul className="flex flex-col items-center justify-center gap-4 text-neutral-600 sm:flex-row">

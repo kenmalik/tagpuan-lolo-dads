@@ -13,10 +13,10 @@ export default function Header({
     >
       <Link href="/">
         <div className="hidden font-seaweed text-3xl font-bold min-[425px]:block">
-          Tagpuan + Lolo Dad's
+          Tagpuan + Lolo Dad&apos;s
         </div>
         <div className="font-seaweed text-3xl font-bold min-[425px]:hidden">
-          T + LD's
+          T + LD&apos;s
         </div>
       </Link>
       <ul className="flex gap-4">

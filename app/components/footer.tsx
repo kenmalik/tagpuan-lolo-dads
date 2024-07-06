@@ -24,7 +24,7 @@ export default function Footer() {
         <p>Kiltepan Road 2619 Sagada, Philippines</p>
       </div>
       <h1 className="mb-12 text-center font-seaweed text-3xl font-bold">
-        Tagpuan + Lolo Dad's
+        Tagpuan + Lolo Dad&apos;s
       </h1>
     </footer>
   );
