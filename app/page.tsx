@@ -53,11 +53,13 @@ export default function Home() {
           <Gallery className="mb-8">
             <img src="/images/tagpuan/restaurant-exterior.jpg" />
           </Gallery>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut a, ad
-            suscipit iusto dignissimos animi, dolores et at quo temporibus quia
-            ullam recusandae maiores porro itaque! Vitae ex numquam cum!
-          </p>
+          <div className="sm:px-10 lg:px-20">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut a,
+              ad suscipit iusto dignissimos animi, dolores et at quo temporibus
+              quia ullam recusandae maiores porro itaque! Vitae ex numquam cum!
+            </p>
+          </div>
           <div className="mt-12 flex flex-col items-center gap-4">
             <Link
               href="/about"
@@ -77,12 +79,14 @@ export default function Home() {
             <img src="/images/lolo-dads/cabin-lighting.jpg" />
             <img src="/images/lolo-dads/cabin-patio.jpg" />
           </Gallery>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum
-            rem pariatur molestias nihil cupiditate omnis perferendis quam
-            voluptas voluptate modi suscipit, consequatur ullam, corrupti eum
-            voluptates officia. Nisi, quo.
-          </p>
+          <div className="sm:px-10 lg:px-20">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              cum rem pariatur molestias nihil cupiditate omnis perferendis quam
+              voluptas voluptate modi suscipit, consequatur ullam, corrupti eum
+              voluptates officia. Nisi, quo.
+            </p>
+          </div>
           <div className="mt-12 flex flex-col items-center gap-4">
             <Link
               href="/about"
