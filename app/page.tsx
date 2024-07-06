@@ -19,13 +19,13 @@ export default function Home() {
                 href="#tagpuan"
                 className="w-full border-b-2 border-white p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
               >
-                Tagpuan
+                Ginuwine Tagpuan
               </a>
               <a
                 href="#lolo-dads"
                 className="w-full border-b-2 border-white p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
               >
-                Lolo Dad's
+                Lolo Dad's Cabin
               </a>
             </div>
           </div>
@@ -34,26 +34,30 @@ export default function Home() {
           id="about"
           className="mx-8 mb-64 mt-24 flex flex-col items-center"
         >
-          <h1 className="mb-12 text-4xl font-bold">What we do</h1>
-          <p className="mb-8 italic">Do you want...</p>
-          <ul className="mb-8">
+          <h1 className="mb-12 text-4xl font-bold md:text-5xl">What we do</h1>
+          <p className="mb-8 text-lg italic">Do you want...</p>
+          <ul className="mb-8 text-lg">
             <li>Accommodation?</li>
             <li>Food?</li>
             <li>Bonfire?</li>
             <li>Tour arrangement?</li>
             <li>A great experience?</li>
           </ul>
-          <p className="text-2xl font-bold">We gotchu!</p>
+          <p className="text-3xl font-bold md:text-4xl">We gotchu!</p>
         </section>
         <section
           id="tagpuan"
-          className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-48 lg:mx-64 xl:mx-96 2xl:mx-128"
+          className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
         >
-          <h1 className="mb-12 text-center text-4xl font-bold">Tagpuan</h1>
-          <Gallery className="mb-8">
-            <img src="/images/tagpuan/restaurant-exterior.jpg" />
-          </Gallery>
-          <div className="sm:px-10 lg:px-20">
+          <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
+            Ginuwine Tagpuan
+          </h1>
+          <div className="mb-8 border-2 p-2">
+            <Gallery>
+              <img src="/images/tagpuan/restaurant-exterior.jpg" />
+            </Gallery>
+          </div>
+          <div className="sm:px-10 lg:px-20 2xl:px-36">
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut a,
               ad suscipit iusto dignissimos animi, dolores et at quo temporibus
@@ -71,15 +75,19 @@ export default function Home() {
         </section>
         <section
           id="lolo-dads"
-          className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-48 lg:mx-64 xl:mx-96 2xl:mx-128"
+          className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
         >
-          <h1 className="mb-12 text-center text-4xl font-bold">Lolo Dad's</h1>
-          <Gallery className="mb-8">
-            <img src="/images/lolo-dads/cabin-approach.jpg" />
-            <img src="/images/lolo-dads/cabin-lighting.jpg" />
-            <img src="/images/lolo-dads/cabin-patio.jpg" />
-          </Gallery>
-          <div className="sm:px-10 lg:px-20">
+          <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
+            Lolo Dad's Cabin
+          </h1>
+          <div className="mb-8 border-2 p-2">
+            <Gallery>
+              <img src="/images/lolo-dads/cabin-approach.jpg" />
+              <img src="/images/lolo-dads/cabin-lighting.jpg" />
+              <img src="/images/lolo-dads/cabin-patio.jpg" />
+            </Gallery>
+          </div>
+          <div className="sm:px-10 lg:px-20 2xl:px-36">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
               cum rem pariatur molestias nihil cupiditate omnis perferendis quam

@@ -20,6 +20,9 @@ const config: Config = {
       fontFamily: {
         seaweed: ['var(--font-seaweed-script)'],
       },
+      screens: {
+        '3xl': '1792px',
+      },
     },
   },
   plugins: [],
