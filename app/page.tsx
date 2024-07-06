@@ -67,7 +67,7 @@ export default function Home() {
           <div className="mt-12 flex flex-col items-center gap-4">
             <Link
               href="/about"
-              className="border-2 border-orange-400 px-8 py-2 transition ease-in-out hover:border-orange-300"
+              className="border-2 border-orange-400 px-8 py-2 transition ease-in-out hover:border-orange-300 hover:text-orange-400"
             >
               Grab a meal!
             </Link>
@@ -98,7 +98,7 @@ export default function Home() {
           <div className="mt-12 flex flex-col items-center gap-4">
             <Link
               href="/about"
-              className="border-2 border-orange-400 px-8 py-2 transition ease-in-out hover:border-orange-300"
+              className="border-2 border-orange-400 px-8 py-2 transition ease-in-out hover:border-orange-300 hover:text-orange-400"
             >
               Stay the night!
             </Link>

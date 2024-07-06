@@ -11,13 +11,13 @@ export default function Header({ fixed }: { fixed?: boolean }) {
         </div>
       </Link>
       <ul className="flex gap-4">
-        <li className="transition ease-in-out hover:text-orange-700">
+        <li className="transition ease-in-out hover:text-orange-400 hover:underline">
           <Link href="/">Home</Link>
         </li>
-        <li className="transition ease-in-out hover:text-orange-700">
+        <li className="transition ease-in-out hover:text-orange-400 hover:underline">
           <Link href="/about">About</Link>
         </li>
-        <li className="transition ease-in-out hover:text-orange-700">
+        <li className="transition ease-in-out hover:text-orange-400 hover:underline">
           <Link href="/contact">Contact</Link>
         </li>
       </ul>
