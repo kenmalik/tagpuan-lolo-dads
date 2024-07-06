@@ -2,6 +2,7 @@
 
 import Gallery from './components/gallery';
 import Header from './components/header';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -57,24 +58,14 @@ export default function Home() {
             suscipit iusto dignissimos animi, dolores et at quo temporibus quia
             ullam recusandae maiores porro itaque! Vitae ex numquam cum!
           </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo omnis
-            necessitatibus eveniet, doloremque tenetur expedita. Sint
-            laudantium, qui odio deleniti voluptas assumenda, velit tenetur,
-            officia quidem suscipit inventore ea enim.
-          </p>
-          <p>
-            Natus animi maxime sapiente veniam quia, ratione iure voluptatum
-            voluptatibus quo minima dolores illo fuga. Doloremque dolores totam
-            quos accusamus iusto mollitia distinctio placeat suscipit,
-            repellendus nostrum officia nobis quo?
-          </p>
-          <p>
-            Aut nulla maiores ducimus dolore, consequatur voluptatem architecto
-            veniam officia numquam asperiores cum, natus excepturi mollitia est,
-            distinctio praesentium molestiae voluptatibus officiis omnis ut
-            itaque sequi cupiditate suscipit vero. Perspiciatis.
-          </p>
+          <div className="mt-12 flex flex-col items-center gap-4">
+            <Link
+              href="/about"
+              className="border-2 border-orange-400 px-8 py-2 transition ease-in-out hover:border-orange-300"
+            >
+              Grab a meal!
+            </Link>
+          </div>
         </section>
         <section
           id="lolo-dads"
@@ -92,25 +83,14 @@ export default function Home() {
             voluptas voluptate modi suscipit, consequatur ullam, corrupti eum
             voluptates officia. Nisi, quo.
           </p>
-          <p>
-            Molestiae cum commodi nesciunt iste porro veritatis necessitatibus
-            beatae unde eius tenetur vel ab repellat aut consequatur
-            reprehenderit odio tempore totam aspernatur, voluptatem et quasi
-            obcaecati quibusdam error. Libero, provident.
-          </p>
-          <p>
-            Tempore incidunt recusandae consectetur hic perferendis tempora
-            magni officia assumenda ipsa nostrum nesciunt magnam porro
-            consequuntur ea animi facere doloribus ratione voluptates iste
-            obcaecati sit, laborum reprehenderit. Earum, consequuntur
-            reiciendis?
-          </p>
-          <p>
-            Aspernatur, magnam perspiciatis quidem quas sed dolore. Enim,
-            deleniti odio natus nostrum libero ad! Ad molestias earum mollitia
-            distinctio dolorem porro natus tenetur esse corporis, veritatis, est
-            autem illo quasi!
-          </p>
+          <div className="mt-12 flex flex-col items-center gap-4">
+            <Link
+              href="/about"
+              className="border-2 border-orange-400 px-8 py-2 transition ease-in-out hover:border-orange-300"
+            >
+              Stay the night!
+            </Link>
+          </div>
         </section>
       </main>
     </>
