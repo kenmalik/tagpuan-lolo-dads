@@ -17,9 +17,6 @@ export default function Header({ fixed }: { fixed?: boolean }) {
         <li className="transition ease-in-out hover:text-orange-400 hover:underline">
           <Link href="/about">About</Link>
         </li>
-        <li className="transition ease-in-out hover:text-orange-400 hover:underline">
-          <Link href="/contact">Contact</Link>
-        </li>
       </ul>
     </header>
   );
