@@ -8,7 +8,53 @@ export default function About() {
     <>
       <Header />
       <main className="pt-12">
-        <section className="mx-8 mb-64 mt-24 flex flex-col items-center sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128">
+        <section
+          id="contact"
+          className="mx-8 mb-64 mt-24 flex flex-col items-center sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
+        >
+          <h1 className="mb-12 text-center text-4xl font-bold">
+            Get in contact
+          </h1>
+          <h2 className="mb-6 text-center text-2xl font-bold">
+            Follow our socials for announcements
+          </h2>
+          <ul className="mb-12">
+            <li className="mb-4">
+              <a
+                href="https://www.facebook.com/profile.php?id=100090739232847"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4"
+              >
+                <img
+                  src="/logos/Facebook_Logo_Secondary.png"
+                  className="size-8 bg-[#4267B2] p-1"
+                />
+                Facebook @ Tagpuan • Lolo Dad's Cabin
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/ginuwinetagpuan"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4"
+              >
+                <img
+                  src="/logos/Instagram_Glyph_White.svg"
+                  className="size-8 bg-[#E1306C] p-1"
+                />
+                Instagram @ ginuwinetagpuan
+              </a>
+            </li>
+          </ul>
+          <h2 className="mb-6 text-center text-2xl font-bold">
+            Call/text for bookings and other inquiries
+          </h2>
+          <p>+63 (927) 546-6600</p>
+        </section>
+        <section
+          id="location"
+          className="mx-8 mb-64 mt-24 flex flex-col items-center sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
+        >
           <h1 className="mb-12 text-center text-4xl font-bold">
             Where to find us
           </h1>
