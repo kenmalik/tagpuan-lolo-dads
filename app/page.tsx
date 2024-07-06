@@ -57,7 +57,7 @@ export default function Home() {
             <li>A great experience?</li>
           </ul>
           <p className="mb-12 text-3xl font-bold md:text-4xl">We gotchu!</p>
-          <p className="md:text-1xl text-xl">
+          <p className="md:text-1xl mx-8 text-xl sm:mx-10 md:mx-14 lg:mx-20 xl:mx-28 2xl:mx-36 3xl:mx-48">
             Just come visit our retreat in the mountains of the beautiful
             Sagada, Mountain Province.
           </p>
