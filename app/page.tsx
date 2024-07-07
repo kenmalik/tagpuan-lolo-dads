@@ -135,6 +135,7 @@ export default function Home() {
                   fill
                   style={{ objectFit: 'cover' }}
                   key={uuidv4()}
+                  priority
                 />
               ))}
             </Carousel>
@@ -158,6 +159,7 @@ export default function Home() {
                   fill
                   style={{ objectFit: 'cover' }}
                   key={uuidv4()}
+                  unoptimized
                 />
               ))}
             </Carousel>
