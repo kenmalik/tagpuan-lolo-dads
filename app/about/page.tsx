@@ -65,7 +65,7 @@ export default function About() {
               target="_blank"
               className="text-orange-400 underline"
             >
-              Book Lolo Dad's Cabin with Airbnb
+              Book Lolo Dad&apos;s Cabin with Airbnb
             </a>
           </p>
           <p className="mb-4">
