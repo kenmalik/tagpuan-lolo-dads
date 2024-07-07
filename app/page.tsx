@@ -123,7 +123,7 @@ export default function Home() {
           id="tagpuan"
           className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
         >
-          <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
+          <h1 className="mb-12 text-center font-seaweed text-5xl font-bold md:text-5xl">
             Ginuwine Tagpuan
           </h1>
           <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
@@ -148,7 +148,7 @@ export default function Home() {
             </p>
           </div>
 
-          <h2 className="mb-6 text-center text-2xl font-bold">Our handiwork</h2>
+          <h2 className="mb-6 text-center text-xl font-bold">Our handiwork</h2>
           <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
             <Carousel className="aspect-35mm-film">
               {foodImages.map((image) => (
@@ -177,7 +177,7 @@ export default function Home() {
           id="lolo-dads"
           className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
         >
-          <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
+          <h1 className="mb-12 text-center font-seaweed text-5xl font-bold md:text-5xl">
             Lolo Dad&apos;s Cabin
           </h1>
           <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
