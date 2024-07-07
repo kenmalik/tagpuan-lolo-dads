@@ -4,6 +4,38 @@ import { useEffect, useState } from 'react';
 import Gallery from './components/gallery';
 import Header from './components/header';
 import Link from 'next/link';
+import Image from 'next/image';
+import { v4 as uuidv4 } from 'uuid';
+
+const tagpuanImages = [
+  {
+    src: '/images/tagpuan/restaurant-exterior.jpg',
+    alt: 'Exterior of restaurant',
+  },
+  { src: '/images/tagpuan/patio-day.jpeg', alt: 'Restaurant patio' },
+  {
+    src: '/images/tagpuan/patio-light.jpeg',
+    alt: 'Jar light hanging from patio ceiling',
+  },
+];
+
+const loloDadsImages = [
+  { src: '/images/lolo-dads/cabin-three-quarters.jpg', alt: 'Cabin atop hill' },
+  {
+    src: '/images/lolo-dads/cabin-approach.jpg',
+    alt: 'Cabin entrance exterior',
+  },
+  { src: '/images/lolo-dads/cabin-living.jpg', alt: 'Cabin living area' },
+  {
+    src: '/images/lolo-dads/cabin-lighting.jpg',
+    alt: 'Hanging light inside cabin',
+  },
+  {
+    src: '/images/lolo-dads/cabin-entrance-interior.jpg',
+    alt: 'Cabin entrance interior',
+  },
+  { src: '/images/lolo-dads/cabin-patio.jpg', alt: 'Patio in front of cabin' },
+];
 
 export default function Home() {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -69,11 +101,17 @@ export default function Home() {
           <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
             Ginuwine Tagpuan
           </h1>
-          <div className="mb-8 border-2 p-2">
-            <Gallery>
-              <img src="/images/tagpuan/restaurant-exterior.jpg" />
-              <img src="/images/tagpuan/patio-day.jpeg" />
-              <img src="/images/tagpuan/patio-light.jpeg" />
+          <div className="mb-8 border-2 p-1 md:p-2">
+            <Gallery className="aspect-35mm-film">
+              {tagpuanImages.map((image) => (
+                <Image
+                  alt={image.alt}
+                  src={image.src}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  key={uuidv4()}
+                />
+              ))}
             </Gallery>
           </div>
           <div className="sm:px-10 lg:px-20 2xl:px-36">
@@ -100,14 +138,17 @@ export default function Home() {
           <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
             Lolo Dad&apos;s Cabin
           </h1>
-          <div className="mb-8 border-2 p-2">
-            <Gallery>
-              <img src="/images/lolo-dads/cabin-three-quarters.jpg" />
-              <img src="/images/lolo-dads/cabin-approach.jpg" />
-              <img src="/images/lolo-dads/cabin-living.jpg" />
-              <img src="/images/lolo-dads/cabin-entrance-interior.jpg" />
-              <img src="/images/lolo-dads/cabin-lighting.jpg" />
-              <img src="/images/lolo-dads/cabin-patio.jpg" />
+          <div className="mb-8 border-2 p-1 md:p-2">
+            <Gallery className="aspect-35mm-film">
+              {loloDadsImages.map((image) => (
+                <Image
+                  alt={image.alt}
+                  src={image.src}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  key={uuidv4()}
+                />
+              ))}
             </Gallery>
           </div>
           <div className="mb-8 sm:px-10 lg:px-20 2xl:px-36">

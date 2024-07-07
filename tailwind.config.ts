@@ -37,6 +37,9 @@ const config: Config = {
         'fade-out': 'fade-out .2s ease-in',
         'fade-in': 'fade-in .2s ease-in',
       },
+      aspectRatio: {
+        '35mm-film': '3 / 2',
+      },
     },
   },
   plugins: [],
