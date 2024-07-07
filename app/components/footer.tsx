@@ -6,6 +6,7 @@ export default function Footer() {
       <div className="mb-12 flex gap-4">
         <a
           href="https://www.facebook.com/profile.php?id=100090739232847"
+          target="_blank"
           rel="noopener noreferrer"
           className="size-8 bg-[#4267B2] p-1"
         >
@@ -18,6 +19,7 @@ export default function Footer() {
         </a>
         <a
           href="https://www.instagram.com/ginuwinetagpuan"
+          target="_blank"
           rel="noopener noreferrer"
           className="size-8 bg-[#E1306C] p-1"
         >
