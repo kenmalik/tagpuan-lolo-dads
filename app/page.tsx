@@ -72,6 +72,8 @@ export default function Home() {
           <div className="mb-8 border-2 p-2">
             <Gallery>
               <img src="/images/tagpuan/restaurant-exterior.jpg" />
+              <img src="/images/tagpuan/patio-day.jpeg" />
+              <img src="/images/tagpuan/patio-light.jpeg" />
             </Gallery>
           </div>
           <div className="sm:px-10 lg:px-20 2xl:px-36">
@@ -100,7 +102,10 @@ export default function Home() {
           </h1>
           <div className="mb-8 border-2 p-2">
             <Gallery>
+              <img src="/images/lolo-dads/cabin-three-quarters.jpg" />
               <img src="/images/lolo-dads/cabin-approach.jpg" />
+              <img src="/images/lolo-dads/cabin-living.jpg" />
+              <img src="/images/lolo-dads/cabin-entrance-interior.jpg" />
               <img src="/images/lolo-dads/cabin-lighting.jpg" />
               <img src="/images/lolo-dads/cabin-patio.jpg" />
             </Gallery>
