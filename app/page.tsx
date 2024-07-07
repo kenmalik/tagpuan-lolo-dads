@@ -79,18 +79,18 @@ export default function Home() {
               A cabin + restaurant in Sagada, Philippines
             </h1>
             <div className="flex w-2/5 flex-col gap-4 text-center text-orange-100 md:w-1/3 md:text-lg lg:w-1/4 lg:text-xl">
-              <a
+              <Link
                 href="#tagpuan"
                 className="w-full border-b-2 border-orange-100 p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
               >
                 Ginuwine Tagpuan
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#lolo-dads"
                 className="w-full border-b-2 border-orange-100 p-1 transition ease-in-out hover:border-orange-700 hover:text-orange-700"
               >
                 Lolo Dad&apos;s Cabin
-              </a>
+              </Link>
             </div>
           </div>
         </section>
