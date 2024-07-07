@@ -104,7 +104,7 @@ export default function About() {
           >
             Kiltepan Road 2619 Sagada, Philippines
           </a>
-          <div className="h-128 w-full border-2 p-2">
+          <div className="aspect-sdtv w-full border-2 p-2">
             <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY!}>
               <Map
                 defaultCenter={{
