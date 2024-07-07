@@ -77,9 +77,11 @@ export default function Home() {
         </section>
         <section
           id="about"
-          className="x-8 mb-64 mt-24 flex flex-col items-center text-center sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
+          className="flex flex-col items-center bg-stone-600 px-8 pb-32 pt-24 text-center text-white sm:px-24 md:px-36 lg:px-56 xl:px-72 2xl:px-96 3xl:px-128"
         >
-          <h1 className="mb-16 text-4xl font-bold md:text-5xl">What we do</h1>
+          <h1 className="mb-16 text-4xl font-bold text-orange-400 md:text-5xl">
+            What we do
+          </h1>
           <p className="mb-2 text-lg italic">Do you want...</p>
           <ul className="mb-16 text-lg">
             <li>Accommodation?</li>
@@ -88,7 +90,9 @@ export default function Home() {
             <li>Local tour guide?</li>
             <li>A great experience?</li>
           </ul>
-          <p className="mb-12 text-3xl font-bold md:text-4xl">We gotchu!</p>
+          <p className="mb-12 text-3xl font-bold text-orange-400 md:text-4xl">
+            We gotchu!
+          </p>
           <p className="md:text-1xl mx-8 text-xl sm:mx-10 md:mx-14 lg:mx-20 xl:mx-28 2xl:mx-36 3xl:mx-48">
             Just come visit our retreat in the mountains of the beautiful
             Sagada, Mountain Province.
@@ -101,7 +105,7 @@ export default function Home() {
           <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
             Ginuwine Tagpuan
           </h1>
-          <div className="mb-8 border-2 p-1 md:p-2">
+          <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
             <Gallery className="aspect-35mm-film">
               {tagpuanImages.map((image) => (
                 <Image
@@ -138,7 +142,7 @@ export default function Home() {
           <h1 className="mb-12 text-center font-seaweed text-4xl font-bold md:text-5xl">
             Lolo Dad&apos;s Cabin
           </h1>
-          <div className="mb-8 border-2 p-1 md:p-2">
+          <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
             <Gallery className="aspect-35mm-film">
               {loloDadsImages.map((image) => (
                 <Image
@@ -159,7 +163,7 @@ export default function Home() {
               floor space.
             </p>
           </div>
-          <ul className="flex flex-col items-center justify-center gap-4 text-neutral-600 sm:flex-row">
+          <ul className="flex flex-col items-center justify-center gap-4 sm:flex-row">
             <li className="flex items-center gap-4">
               <Image
                 src="/icons/wifi-orange.svg"

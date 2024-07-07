@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col items-center bg-gray-200 p-12">
+    <footer className="flex flex-col items-center bg-stone-800 p-12 text-stone-100">
       <div className="mb-12 flex gap-4">
         <a
           href="https://www.facebook.com/profile.php?id=100090739232847"

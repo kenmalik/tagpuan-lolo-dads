@@ -39,6 +39,7 @@ const config: Config = {
       },
       aspectRatio: {
         '35mm-film': '3 / 2',
+        sdtv: '4 / 3',
       },
     },
   },
