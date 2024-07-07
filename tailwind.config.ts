@@ -25,21 +25,31 @@ const config: Config = {
       },
       keyframes: {
         'fade-out': {
-          from: { backgroundColor: 'white' },
-          to: { backgroundColor: 'transparent' },
+          from: { backgroundColor: 'white', color: 'var(--foreground-dark)' },
+          to: {
+            backgroundColor: 'transparent',
+            color: 'var(--foreground-light)',
+          },
         },
         'fade-in': {
-          from: { backgroundColor: 'transparent' },
-          to: { backgroundColor: 'white' },
+          from: {
+            backgroundColor: 'transparent',
+            color: 'var(--foreground-light)',
+          },
+          to: { backgroundColor: 'white', color: 'var(--foreground-dark)' },
         },
       },
       animation: {
-        'fade-out': 'fade-out .2s ease-in',
-        'fade-in': 'fade-in .2s ease-in',
+        'fade-out': 'fade-out .25s ease-in',
+        'fade-in': 'fade-in .25s ease-in',
       },
       aspectRatio: {
         '35mm-film': '3 / 2',
         sdtv: '4 / 3',
+      },
+      colors: {
+        'foreground-dark': 'var(--foreground-dark)',
+        'foreground-light': 'var(--foreground-light)',
       },
     },
   },
