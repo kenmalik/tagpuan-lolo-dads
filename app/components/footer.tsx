@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="flex flex-col items-center bg-gray-200 p-12">
@@ -7,14 +9,24 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="size-8 bg-[#4267B2] p-1"
         >
-          <img src="/logos/Facebook_Logo_Secondary.png" />
+          <Image
+            src="/logos/Facebook_Logo_Secondary.png"
+            alt="Facebook logo"
+            height={24}
+            width={24}
+          />
         </a>
         <a
           href="https://www.instagram.com/ginuwinetagpuan"
           rel="noopener noreferrer"
           className="size-8 bg-[#E1306C] p-1"
         >
-          <img src="/logos/Instagram_Glyph_White.svg" />
+          <Image
+            src="/logos/Instagram_Glyph_White.svg"
+            alt="Instagram logo"
+            height={24}
+            width={24}
+          />
         </a>
       </div>
       <div className="mb-12 text-center">

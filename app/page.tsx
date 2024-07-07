@@ -161,16 +161,33 @@ export default function Home() {
           </div>
           <ul className="flex flex-col items-center justify-center gap-4 text-neutral-600 sm:flex-row">
             <li className="flex items-center gap-4">
-              <img src="/icons/wifi-orange.svg" alt="Wifi symbol" />
+              <Image
+                src="/icons/wifi-orange.svg"
+                alt="Wifi symbol"
+                height={24}
+                width={24}
+              />
               Wifi available
             </li>
             <li className="hidden sm:block">|</li>
             <li className="flex items-center gap-4">
-              <img src="/icons/bed-orange.svg" alt="Bed icon" />4 Beds
+              <Image
+                src="/icons/bed-orange.svg"
+                alt="Bed icon"
+                height={24}
+                width={24}
+              />
+              4 Beds
             </li>
             <li className="hidden sm:block">|</li>
             <li className="flex items-center gap-4">
-              <img src="/icons/shower-orange.svg" alt="Showerhead icon" />1 Bath
+              <Image
+                src="/icons/shower-orange.svg"
+                alt="Showerhead icon"
+                height={24}
+                width={24}
+              />
+              1 Bath
             </li>
           </ul>
           <div className="mt-12 flex flex-col items-center gap-4">

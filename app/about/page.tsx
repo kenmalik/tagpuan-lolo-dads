@@ -2,6 +2,7 @@
 
 import Header from '../components/header';
 import { APIProvider, Map, Marker } from '@vis.gl/react-google-maps';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -25,9 +26,12 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-4"
               >
-                <img
+                <Image
                   src="/logos/Facebook_Logo_Secondary.png"
+                  alt="Facebook logo"
                   className="size-8 bg-[#4267B2] p-1"
+                  height={24}
+                  width={24}
                 />
                 Facebook @ Tagpuan • Lolo Dad&apos;s Cabin
               </a>
@@ -38,9 +42,12 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-4"
               >
-                <img
+                <Image
                   src="/logos/Instagram_Glyph_White.svg"
+                  alt="Instagram logo"
                   className="size-8 bg-[#E1306C] p-1"
+                  height={24}
+                  width={24}
                 />
                 Instagram @ ginuwinetagpuan
               </a>
