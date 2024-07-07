@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Gallery from './components/gallery';
+import Carousel from './components/carousel';
 import Header from './components/header';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -16,6 +16,25 @@ const tagpuanImages = [
   {
     src: '/images/tagpuan/patio-light.jpeg',
     alt: 'Jar light hanging from patio ceiling',
+  },
+];
+
+const foodImages = [
+  {
+    src: '/images/tagpuan/food/boodle-fight.jpeg',
+    alt: 'Boodle fight spread',
+  },
+  {
+    src: '/images/tagpuan/food/roasting-chicken.jpeg',
+    alt: 'Boodle fight spread',
+  },
+  {
+    src: '/images/tagpuan/food/chicken-plate.jpeg',
+    alt: 'Plated chicken dish',
+  },
+  {
+    src: '/images/tagpuan/food/skewered-chicken.jpeg',
+    alt: 'Skewered chicken',
   },
 ];
 
@@ -75,6 +94,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <section
           id="about"
           className="flex flex-col items-center bg-stone-600 px-8 pb-32 pt-24 text-center text-white sm:px-24 md:px-36 lg:px-56 xl:px-72 2xl:px-96 3xl:px-128"
@@ -98,6 +118,7 @@ export default function Home() {
             Sagada, Mountain Province.
           </p>
         </section>
+
         <section
           id="tagpuan"
           className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
@@ -106,7 +127,7 @@ export default function Home() {
             Ginuwine Tagpuan
           </h1>
           <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
-            <Gallery className="aspect-35mm-film">
+            <Carousel className="aspect-35mm-film">
               {tagpuanImages.map((image) => (
                 <Image
                   alt={image.alt}
@@ -116,9 +137,9 @@ export default function Home() {
                   key={uuidv4()}
                 />
               ))}
-            </Gallery>
+            </Carousel>
           </div>
-          <div className="sm:px-10 lg:px-20 2xl:px-36">
+          <div className="mb-32 sm:px-10 lg:px-20 2xl:px-36">
             <p>
               Grab a bite to eat at Ginuwine Tagpuan! Our patio dining area
               provides an intimate space for adventurers to relax and mingle.
@@ -126,6 +147,22 @@ export default function Home() {
               our in-cabin chefs.
             </p>
           </div>
+
+          <h2 className="mb-6 text-center text-2xl font-bold">Our handiwork</h2>
+          <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
+            <Carousel className="aspect-35mm-film">
+              {foodImages.map((image) => (
+                <Image
+                  alt={image.alt}
+                  src={image.src}
+                  fill
+                  style={{ objectFit: 'cover' }}
+                  key={uuidv4()}
+                />
+              ))}
+            </Carousel>
+          </div>
+
           <div className="mt-12 flex flex-col items-center gap-4">
             <Link
               href="/about"
@@ -135,6 +172,7 @@ export default function Home() {
             </Link>
           </div>
         </section>
+
         <section
           id="lolo-dads"
           className="mx-8 mb-64 mt-24 sm:mx-24 md:mx-36 lg:mx-56 xl:mx-72 2xl:mx-96 3xl:mx-128"
@@ -143,7 +181,7 @@ export default function Home() {
             Lolo Dad&apos;s Cabin
           </h1>
           <div className="mb-8 border-2 border-stone-200 p-1 md:p-2">
-            <Gallery className="aspect-35mm-film">
+            <Carousel className="aspect-35mm-film">
               {loloDadsImages.map((image) => (
                 <Image
                   alt={image.alt}
@@ -153,7 +191,7 @@ export default function Home() {
                   key={uuidv4()}
                 />
               ))}
-            </Gallery>
+            </Carousel>
           </div>
           <div className="mb-8 sm:px-10 lg:px-20 2xl:px-36">
             <p>
